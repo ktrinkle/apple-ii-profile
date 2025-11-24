@@ -21,7 +21,7 @@ The following components are known to be obsolete as of June 2025:
 | Reference | Chip   | Notes                                        |
 |-----------|--------|----------------------------------------------|
 | UA5       | CA3096 | Getting hard to find, long out of production. Recommended to be  replaced via transistors. |
-| UB7       | 74LS13 | Readily available via online sources, but new stock no longer produced. |
+| UB7       | 74LS13 | Readily available via online sources, but new stock no longer produced. **Note**: This can be replaced with a 74LS20. |
 | UC6       | 2716   | D2716 ROM. Generally available, but requires older voltage standards to erase and reprogram. |
 
 ### CA3096
@@ -41,6 +41,14 @@ an equivalent series of transistors to replace the chip.
 Surface mount pads are provided for the transistors. 
 
 When assembling, only use the Q1-5 pads or the CA3096, **not both**.
+
+### 74LS13
+
+Tests performed in November 2025 show that the 74LS13 can be replaced with the 74LS20 with no issues. The LS20 pinout is the same as the 74LS13, and is only missing the Schottsky action that the 74LS13 provided.
+
+### D2716
+
+A future revision is planned to replace this with a more available 27C256 EPROM.
 
 ## Bill of materials
 
@@ -76,7 +84,7 @@ ICs are labeled using modern standards. The original card has a grid of A-C, 1-8
 | UB3 | [74LS132](https://www.mouser.com/ProductDetail/595-SN74LS132N) | 1 | |
 | UB4 | [74LS368](https://www.mouser.com/ProductDetail/595-SN74LS368AN) | 1 | | 
 | UB6 | [74LS259](https://www.mouser.com/ProductDetail/595-SN74LS259BN) | 1 | | 
-| UB7 | 74LS13 | 1 | Refer to obsolete note above. |
+| UB7 | 74LS13 | 1 | Replace with a [74LS20](https://www.mouser.com/ProductDetail/595-SN74LS20N) |
 | UB8 | [74LS14](https://www.mouser.com/ProductDetail/595-SN74LS14N) | 1 | |
 | UC1 | [74LS280](https://www.mouser.com/ProductDetail/595-SN74LS280N) | 1 | | 
 | UC2 | [74LS109AN](https://www.mouser.com/ProductDetail/595-SN74LS109AN) | 1 |  | 
@@ -107,6 +115,8 @@ Thank you to Raymond Jett of [arcadecomponents.com](https://www.arcadecomponents
 ## Revisions
 
 The first version (unlabled, but now known as Rev A) had issues with missing traces. Rev B corrected those, but I had missed some traces from the D2716 data bus to UA2 and UA3.
+
+2025-11-23: Updated notes for 74SL13 compatibility.
 
 ## License
 
