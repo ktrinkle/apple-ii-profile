@@ -52,7 +52,7 @@ A future revision is planned to replace this with a more available 27C256 EPROM.
 
 ## Bill of materials
 
-Mouser links are provided where available - Mouser is a sponsor of the DFW Retro Computing group, and they are based in the DFW Metroplex. As of this writing, parts are approximately $33 before tax and shipping.
+Mouser links are provided where available - Mouser is a sponsor of the DFW Retro Computing group, and they are based in the DFW Metroplex. As of this writing, parts are approximately $40 before tax, tariffs and shipping.
 
 ICs are labeled using modern standards. The original card has a grid of A-C, 1-8 and my numbering system generally follows that except for the resistor packs. (This grid is common for Apple pre-1986).
 
