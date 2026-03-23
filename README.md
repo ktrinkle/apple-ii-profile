@@ -108,6 +108,11 @@ This is known to be compatible with the Profile 5 MB hard drive, as that is what
 
 This card is not yet compatible with the [ESProfile](https://github.com/alexthecat123/ESProFile). Alex and I have swapped both our projects with the ultimate goal of getting these to work together. As the ArduinoFile is deprecated, there are no plans to work on compatibility for that project at this time. 
 
+## ROM Links
+
+[5 MB Profile ROM](https://mirrors.apple2.org.za/Apple%20II%20Documentation%20Project/Interface%20Cards/Hard%20Disk%20Drive%20Controllers/Apple%20II%20ProFile%20Interface%20Card/ROM%20Images/Apple%20II%20Interface%20341-0271-A%20ROM%202716%20for%205MB%20Profile.bin)
+[10 MB Profile ROM](https://mirrors.apple2.org.za/Apple%20II%20Documentation%20Project/Interface%20Cards/Hard%20Disk%20Drive%20Controllers/Apple%20II%20ProFile%20Interface%20Card/ROM%20Images/Apple%20II%20Interface%20341-0299-B%20ROM%202716%20for%2010MB%20Profile.bin)
+
 ## Credits
 
 Thank you to Raymond Jett of [arcadecomponents.com](https://www.arcadecomponents.com) for his assistance with troubleshooting, [Vince Briel](https://github.com/retrotink) for his guidance, and Tammy Hanson of [Apple Rescue of Denver](https://applerescueofdenver.com) for her loan of a working Profile drive to get mine functional.
